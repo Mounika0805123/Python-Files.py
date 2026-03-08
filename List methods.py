@@ -1,0 +1,25 @@
+##LIST METHODS##
+colourlist=["RED","BLUE","PURPLE","BLACK"]
+##APPEND##
+colourlist.append("GREEN")
+print(colourlist)
+##INSERT##
+colourlist.insert(1,"PINK")
+print(colourlist)
+##REMOVE##
+colourlist.remove("BLACK")
+print(colourlist)
+##POP##
+colourlist.pop(2)
+print(colourlist)
+##SORT##
+colourlist.sort()
+print(colourlist)
+##REVERSE##
+colourlist.reverse()
+print(colourlist)
+##INDEX##
+print(colourlist.index("BLUE"))
+##COUNT##
+print(colourlist.count("RED"))
+=
